@@ -1,19 +1,45 @@
-html {
-    font-size: 16px;
+:root {
+    font-size: 18px;
+    --gray30: #212121;
+    --gray20: #616161;
+    --gray10: #212429;
 }
 
+/* html {
+    font-size: 16px;
+} */
+
 body {
-    color: #212121;
     /* font-size: 10px; */
+    color: var(--gray30);
 }
 
 a {
-    color: #212121;
+    color: var(--gray30);
 }
 
 header {
+    /* --gray10: red; */
     font-size: 14px;
+    color: var(--gray10);
 }
+
+header a {
+    color: var(--gray10);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: var(--gray30);
+}
+
+nav details summary {
+    font-weight: bold;
+}
+
+/* ol li:nth-child(even) {
+    border: 1px solid red;
+} */
 
 /* header { */
     /* font-size: 2em; */
@@ -31,6 +57,7 @@ h1 {
     /* font-size: 3rem; */
     font-size: 60px;
     /* font-size: 3.75em; */
+    /* text-decoration: underline; */
 }
 
 h2 {
