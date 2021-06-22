@@ -43,7 +43,16 @@ body {
     /* font-family: charter; */
     font-family: 'Nunito', sans-serif;
     background: #251F24;
-
+    /* margin: 100px; */
+    margin: 0;
+    /* writing-mode: vertical-lr; */
+    /* margin: 10px 10px 10px 10px; */
+    /* margin-inline: 100px; */
+    /* margin-block: 100px; */
+    /* margin-block-start: 50px; */
+    /* margin-block-end: 50px; */
+    /* margin: 0 10px; */
+    /* margin-block: ; */
 }
 
 a {
@@ -88,7 +97,7 @@ nav details summary {
 /* } */
 
 h1, h2, h3 {
-    font-weight: normal;
+    /* font-weight: normal; */
 }
 
 h1 {
@@ -99,17 +108,27 @@ h1 {
     /* font-size: 3.75em; */
     /* text-decoration: underline; */
     /* font-weight: normal; */
+    margin-block-start: 64px;
+    margin-block-end: 16px;
 }
 
 h2 {
     font-size: 2em;
     /* font-weight: normal; */
+    margin-block: 40px;
 }
 
 h3 {
     /* font-size: 24px; */
     font-size: 1.5em;
     /* font-weight: normal; */
+    font-weight: 600;
+    margin-block: 16px;
+}
+
+hr {
+    margin-block: 40px;
+    border-color: rgba(97, 97, 97, 0.2);
 }
 
 pre {
@@ -132,6 +151,11 @@ p {
     /* width: 100%; */
 }
 
+.section-content img {
+    margin-block-start: 40px;
+    display: block;
+}
+
 .section-content {
     counter-reset: titleList;
 }
@@ -152,6 +176,13 @@ p {
     display: inline-block;
 }
 
+blockquote {
+    margin-block-start: 80px;
+    margin-block-end: 63px;
+    background-color: var(--white10);
+    border-radius: 8px;
+}
+
 /* ::selection {
     background: green;
 } */
@@ -166,3 +197,7 @@ p {
     background: red;
     width: 80vw;
 } */
+
+.main hr {
+    display: none;
+} 
