@@ -297,3 +297,46 @@ blockquote p {
     padding-inline: 16px;
     /* background: blue; */
 }
+
+.slider {
+    /* border: 1px solid red; */
+}
+
+.slider-container {
+    /* border: 1px solid purple; */
+    display: block;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    font-size: 0;
+}
+
+/* .slider-slide h1 {
+    border: 1px solid blue;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+}   */
+
+.video {
+    /* border: 1px solid blue; */
+    margin: 0;
+    display: inline-block;
+    width: 100%; /* inline-size: 100%; */
+    height: auto; /* block-size: auto%; */
+    aspect-ratio: 16/9;
+}
+
+.slider-bullet-list {
+    /* border: 1px solid yellow; */
+    text-align: center;
+    margin-block-start: 10px;
+}
+
+.slider-bullet {
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background: white;
+    border-radius: 50%;
+}
